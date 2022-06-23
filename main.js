@@ -4,7 +4,7 @@
 // step3: store
 const { createStore } = window.Redux
 
-const initialState = ["Working with company tasks", "Reading books"]
+const initialState = []
 
 const toDoReducer = (state = initialState, action) => {
   switch (action.type) {
